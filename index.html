@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    .xmas-red { color: #C8102E; }
+    .xmas-green { color: #0B3D0B; }
+    .xmas-gold { color: #FFD700; }
+    .xmas-silver { color: #C0C0C0; }
+
+    .xmas-gradient {
+      background: linear-gradient(90deg, #0B3D0B, #228B22, #FFD700);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 700;
+    }
+
+    .candy-cane {
+      background: linear-gradient(45deg,
+        #ffffff 0% 20%,
+        #C8102E 20% 40%,
+        #ffffff 40% 60%,
+        #C8102E 60% 80%,
+        #ffffff 80% 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .glow {
+      text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+    }
+
+    /* ❄ Сніг */
+    body {
+      position: relative;
+      overflow: auto;
+    }
+
+    .snowflake {
+      position: fixed;
+      top: -10px;
+      color: white;
+      font-size: 18px;
+      animation: fall linear infinite;
+      opacity: 0.9;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(110vh);
+        opacity: 0.2;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ❄ Генератор сніжинок -->
+  <script>
+    const snowCount = 40; // кількість сніжинок
+    for (let i = 0; i < snowCount; i++) {
+      const snow = document.createElement("div");
+      snow.className = "snowflake";
+      snow.textContent = "❄";
+      snow.style.left = Math.random() * 100 + "vw";
+      snow.style.animationDuration = 4 + Math.random() * 6 + "s";
+      snow.style.fontSize = 10 + Math.random() * 20 + "px";
+      document.body.appendChild(snow);
+    }
+  </script>
+
+  <h1 class="xmas-red">JOHN DOE</h1>
+  <p class="xmas-green">Джон Доу — один із шести ігровихВбивцьугрі FORSAKEN, якого можна придбати за 1000очок гравця Очки гравця(зі знижкою до 318 з 18 березня). Відомий як «Вбивця-ловець», він знищуєтих, хто вижив,використовуючи пастки як на близькій, так і на дальній відстані, включаючи викликані стіни з шипами, стежки псування та потужні удари.</p>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0478d388-e8c3-480e-b46b-253a3eea9431/dj6zfg6-dd313295-cf39-43ee-994f-c8680c7c7909.png/v1/fill/w_913,h_875/john_doe__forsaken__render_by_versusstockpile_dj6zfg6-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI0NCIsInBhdGgiOiJcL2ZcLzA0NzhkMzg4LWU4YzMtNDgwZS1iNDZiLTI1M2EzZWVhOTQzMVwvZGo2emZnNi1kZDMxMzI5NS1jZjM5LTQzZWUtOTk0Zi1jODY4MGM3Yzc5MDkucG5nIiwid2lkdGgiOiI8PTIzNDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.-idkN4HDmxOdlpZxZwbcnx57S5Lc8mXdXduufyy2Goc">
+  <p class="xmas-gold glow">Джон Доу у грі FORSAKEN базується на другому обліковому записі, який приєднався до Roblox , створеному у 2005 році як тестовий обліковий запис генеральним директором Roblox Девідом Базукі . Незважаючи на просте походження, обліковий запис став центром відомої міської легенди Roblox, яка стверджує, що він і Джейн Доу повернуться, щоб знищити Roblox 18 березня 2017 року. Більше про цю легенду можна знайти тут . Його корупція базується не на самій легенді, а на сценарії, продемонстрованому у відео на YouTube 2017 року , яке змінило експлуататора на форму, схожу на Джона Доу, з прописаною рукою для вбивства, і працювало в іграх зі слабким античитом.</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIskuhk3xm0HLcxGzM638NGr_1J1aTLeRjgA&s">
+  <h2 class="xmas-gradient">У грі FORSAKEN історія Джона Доу здебільшого незавершена, включаючи його передісторію, причини, через які неіснуючий код поглинув його, та як він потрапив до гри FORSAKEN. Як чоловік Джейн Доу , наступної Вижившої , він став зіпсованим після злиття з фрагментами старого, неіснуючого коду Roblox. Мутація серйозно змінила його тіло, в результаті чого утворилися нові кігті, чорний код поширився по його тулубу, а праве око стало червоним і почало видавати код. Тепер, під дією цієї зіпсованості, він запрограмований знищувати всіх Виживших , включаючи свою дружину, щойно вона ввійде в гру.</h2>
+  <img src="https://i.redd.it/come-this-coming-christmas-i-feel-like-santa-john-does-v0-ldc8hkqdhcef1.jpg?width=681&format=pjpg&auto=webp&s=925268cdcfe15c6b0c80f42d943a7071f616b97a">
+  <h2 class="candy-cane">Джон Доу виглядає як світлошкірий роблоксіанець із жовтим торсом, що символізує сорочку, та синіми ногами, що символізують штани. Найбільш очевидною ознакою його зіпсованості неіснуючим кодом Roblox є його деформована права рука, яка повністю вкрита чорним шаром зіпсованості та має форму шипа. З кінцівки просочується червоний двійковий код, а його праве око стало повністю червоним, оточене таким самим чорним шаром зіпсованості.
+
+Частина пошкодження поширилася на його спину, через що його хребет помітно випинається. Його ліва рука також пошкоджена, вкрита чорним слідом пошкодження та утворює три чорні кігті, з яких просочується червоний двійковий код. Крім того, його ноги частково вкриті слідами пошкодження.</h2>
+<img src="https://static.wikitide.net/damnationwiki/thumb/e/e1/SkinJD_LegacyMilestone1_InvIcon.png/750px-SkinJD_LegacyMilestone1_InvIcon.png">
+<h2 class="xmas-green">БОНУС:)</h2>
+<table border="5">
+  <tr>
+    <td>john doe</td>
+    <td>найсильніший уб. в ігрі форсакен по моїй думці іза сильного удару</td>
+    </tr>
+    <tr>
+      <td>1x</td>
+      <td>2 кращий уб. в форсакен масс і ентегелмент дає про себе знати</td>
+    </tr>
+</table>
+</body>
+</html>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #C8102E, #0B3D0B);
+    background-size: 400% 400%;
+    animation: xmasBG 10s ease infinite;
+  }
+
+  @keyframes xmasBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
